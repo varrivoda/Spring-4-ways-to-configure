@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727638be-a89f-4892-8be1-73dd7663d7fb" name="Changes" comment="Initial commit&#10;introduction, basic classes, simpledummy IoC">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+    <list default="true" id="727638be-a89f-4892-8be1-73dd7663d7fb" name="Changes" comment="2. xml-configured spring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703948634783</updated>
-      <workItem from="1703948638928" duration="22751000" />
+      <workItem from="1703948638928" duration="23625000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;introduction, basic classes, simpledummy IoC">
       <created>1704445824939</created>
@@ -102,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704445824940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2. xml-configured spring">
+      <created>1704499549055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704499549055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit&#10;introduction, basic classes, simpledummy IoC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;introduction, basic classes, simpledummy IoC" />
+    <MESSAGE value="2. xml-configured spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. xml-configured spring" />
   </component>
 </project>

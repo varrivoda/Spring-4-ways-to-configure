@@ -1,6 +1,6 @@
-This cource is about Spring. Actually, ido this only for understanding of Spring's configuration by XML
-And this was the only video I found, where it was good described. Xml configuration is discovered in Part 3, so we need to go through part1 and part2 before))
-Also I must stay focused at the main purpose - "Spring-the-ripper"-2014, where XML-configuration itself was used...
+This compendium is meant to remind me about 4 kinds of Spring configuration. 
+Written from video lecture about Spring by Sai Padhyayula 
+https://github.com/SaiUpadhyayula
 
 # PART 1, introduction to IoC, creating project
 
@@ -33,11 +33,10 @@ The first is to add dependency to pom.xml, and donot forget to press "refresh ma
 
     ApplicationContext context = new ClassPathXmlApplicationContext();
 
-параметором надо метедать путь до файла конфигурации
-кстати, создадим его (в папке resources)
-содержимое возьмем издокументации Спринга или из гитхаба автора видео  ;)
-короче, в теге <bean> мы указываем id="имя бина" и class="полное имя класса"
-внутри тега бина emailClient укажем конструктор, в котором укажем id другого бина (спеплчекер) 
+Параметром надо передать путь до файла конфигурации - кстати, создадим его (в папке resources). Содержимое возьмем из документации Спринга или из гитхаба автора видео  ;)
+
+В теге <bean> мы указываем id="имя бина" и class="полное имя класса"
+Внутри тега бина emailClient укажем конструктор, в котором укажем id другого бина (спеплчекер) 
 
     <constructor-arg ref="basicSpellChecker"/> 
 
@@ -50,5 +49,7 @@ The first is to add dependency to pom.xml, and donot forget to press "refresh ma
 теперь, чтобы получить бин, попросим об этом контекст 
     AplicationContext.getBean("emailClient", EmailClient.class)
 
-И! мы можем ужесейчас использовать этот готовый объект
+И! мы уже сейчас можем использовать этот готовый объект
     emailClient.sendEmail("third email");
+
+# ЧАСТЬ 3. Java-корнфигурация
