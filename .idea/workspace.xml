@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727638be-a89f-4892-8be1-73dd7663d7fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/AdvancedSpellChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/BasicSpellChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/SpellChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/readme.md" afterDir="false" />
+    <list default="true" id="727638be-a89f-4892-8be1-73dd7663d7fb" name="Changes" comment="Initial commit&#10;introduction, basic classes, simpledummy IoC">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,6 +59,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\sai-spring\Sai-Spring-get-started\src\main" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="EmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -92,8 +93,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703948634783</updated>
-      <workItem from="1703948638928" duration="17059000" />
+      <workItem from="1703948638928" duration="22751000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;introduction, basic classes, simpledummy IoC">
+      <created>1704445824939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704445824940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit&#10;introduction, basic classes, simpledummy IoC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;introduction, basic classes, simpledummy IoC" />
   </component>
 </project>

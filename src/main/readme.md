@@ -27,3 +27,28 @@ The second step is to inject our spellchecker by constructor when MailClient is 
 
 But is is enough when we have only two these dependencies, but what about hundreds and thouthands of classes? Its better to have some kind of framework, which will inject and all of them instead of us. The most popular tool is Spring framework.
 
+# PART 2, Spring XML-configured DI
+
+The first is to add dependency to pom.xml, and donot forget to press "refresh maven" button, now the springframework must appear in the list of External Libraries. Now we can delete all code in main() and write instead of it
+
+    ApplicationContext context = new ClassPathXmlApplicationContext();
+
+параметором надо метедать путь до файла конфигурации
+кстати, создадим его (в папке resources)
+содержимое возьмем издокументации Спринга или из гитхаба автора видео  ;)
+короче, в теге <bean> мы указываем id="имя бина" и class="полное имя класса"
+внутри тега бина emailClient укажем конструктор, в котором укажем id другого бина (спеплчекер) 
+
+    <constructor-arg ref="basicSpellChecker"/> 
+
+теперьмы можем решать, какую используем имплементацию, без какого-либо вмешательства в наш код, вставляя id нужного бина в тег конструктора клиента.
+
+Но! еще надо прочитать этот xml и получить доступ к бинам.
+
+передадим строку "beans.xml" в коонструктор ClassPAthXmlApplicationContext
+
+теперь, чтобы получить бин, попросим об этом контекст 
+    AplicationContext.getBean("emailClient", EmailClient.class)
+
+И! мы можем ужесейчас использовать этот готовый объект
+    emailClient.sendEmail("third email");
