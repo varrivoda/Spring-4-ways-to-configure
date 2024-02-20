@@ -53,3 +53,11 @@ The first is to add dependency to pom.xml, and donot forget to press "refresh ma
     emailClient.sendEmail("third email");
 
 # ЧАСТЬ 3. Java-корнфигурация
+
+Config.java это более современный способ, главный плюс - позволяет писать сложную логику создания объектов
+
+
+Мы просто создаем файл Config, помечаем его аннотацией @COnfiguration, а в теле класса ghcnj прописаны методы,которыфе возвращают новые объекты через new, и эти методы помеченгы аннотацией @Bean. 
+в main() создаем контекст через new AnotationConfigApplicationContext(AppConfig.class)
+ВсЁ! можем делать лукап по типу. 
+Чтобы вытаскивать по имени, надо в конфиге указать @Bean(name="basicSpellChecker")

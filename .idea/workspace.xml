@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="727638be-a89f-4892-8be1-73dd7663d7fb" name="Changes" comment="2. xml-configured spring">
+    <list default="true" id="727638be-a89f-4892-8be1-73dd7663d7fb" name="Changes" comment="3. java config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sai/EmailApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +48,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "4a604ff4cab412e9bc7c6980b0f2cea6"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703948634783</updated>
-      <workItem from="1703948638928" duration="23625000" />
+      <workItem from="1703948638928" duration="25287000" />
+      <workItem from="1708348672744" duration="4280000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;introduction, basic classes, simpledummy IoC">
       <created>1704445824939</created>
@@ -106,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704499549055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2. xml-configured spring &#10;edited">
+      <created>1704500380414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704500380414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +137,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit&#10;introduction, basic classes, simpledummy IoC" />
     <MESSAGE value="2. xml-configured spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. xml-configured spring" />
+    <MESSAGE value="2. xml-configured spring &#10;edited" />
+    <MESSAGE value="4. java config" />
+    <MESSAGE value="3. java config" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. java config" />
   </component>
 </project>
